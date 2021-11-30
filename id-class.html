@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID - Class</title>
+    <style>
+        /* esto es un comentario sobre el ID unico */
+        #unico {
+            background-color:blue;
+            color: white;
+        }
+        #unico-2 {background-color: green;}
+
+        .generico {
+            background-color: pink;
+            color:tomato;
+            padding: 10px;
+            font-size: 26px;
+        }
+
+        .principal {
+            background-color: blue;
+            color:white;
+            font-size: 24px;
+            padding: 10px;
+            margin-bottom:10px;
+        }
+
+        .secundario {
+            background-color: yellowgreen;
+            color: white;
+            border: 10px solid black;
+            padding: 20px;
+            margin-bottom:50px;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <div id="unico">Hola soy un div único en el mundo</div>
+    <div id="unico-2">Hola soy un div único en el mundo</div>
+    <!-- esto sería un error: 
+        <div id="unico">Hola soy un div único en el mundo</div>
+    -->
+    <div class="generico">Hola, yo no soy un div único!!!</div>
+    <div class="generico">Hola, yo no soy un div único!!!</div>
+    <div class="generico">Hola, yo no soy un div único!!!</div>
+    <div class="generico">Hola, yo no soy un div único!!!</div>
+    <div class="generico">Hola, yo no soy un div único!!!</div>
+
+    <br><br><br><br><br>
+
+    <div class="principal">Contenido principal</div>
+    <div class="secundario">Contenido secundario</div>
+
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et totam rem corrupti quo cumque reiciendis soluta eligendi ullam, quam illo debitis assumenda harum nam, beatae ipsa quasi ea. Consectetur, corporis?</div>
+    <div><a href="">Enlace</a></div>
+
+    <div class="principal">Contenido principal</div>
+    <div class="secundario">Contenido secundario</div>
+
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et totam rem corrupti quo cumque reiciendis soluta eligendi ullam, quam illo debitis assumenda harum nam, beatae ipsa quasi ea. Consectetur, corporis?</div>
+    <div><a href="">Enlace</a></div>
+
+    <div class="principal">Contenido principal</div>
+    <div class="secundario">Contenido secundario</div>
+
+    <br><br><br><br><br>
+    
+</body>
+</html>
